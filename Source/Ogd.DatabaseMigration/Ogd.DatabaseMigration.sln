@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ogd.DatabaseMigration", "Ogd.DatabaseMigration.csproj", "{35A82CF1-7D5E-4C32-A902-DD4F0884E7D5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{65F1EE63-622F-4479-8FAA-49497359B19F}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{35A82CF1-7D5E-4C32-A902-DD4F0884E7D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35A82CF1-7D5E-4C32-A902-DD4F0884E7D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35A82CF1-7D5E-4C32-A902-DD4F0884E7D5}.Debug|Any CPU.Build.2 = Production|Any CPU
+		{35A82CF1-7D5E-4C32-A902-DD4F0884E7D5}.Release|Any CPU.ActiveCfg = UserAcceptance|Any CPU
+		{35A82CF1-7D5E-4C32-A902-DD4F0884E7D5}.Release|Any CPU.Build.0 = UserAcceptance|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

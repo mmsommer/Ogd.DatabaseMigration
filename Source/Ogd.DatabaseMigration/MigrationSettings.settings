@@ -1,0 +1,30 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="SNVPME.DatabaseMigration" GeneratedClassName="MigrationSettings">
+  <Profiles />
+  <Settings>
+    <Setting Name="Provider" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">SqlServer</Value>
+    </Setting>
+    <Setting Name="DEBUG" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=..\..\..\Web\App_Data\PMEData.sdf&lt;/ConnectionString&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=..\..\..\Web\App_Data\PMEData.sdf</Value>
+    </Setting>
+    <Setting Name="USERACCEPTANCE" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=merengue\sqlua01;Initial Catalog=PMEDataUA;Integrated Security=True&lt;/ConnectionString&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=merengue\sqlua01;Initial Catalog=PMEDataUA;Integrated Security=True</Value>
+    </Setting>
+    <Setting Name="PRODUCTION" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=highlife;Initial Catalog=PME;Integrated Security=True&lt;/ConnectionString&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=highlife;Initial Catalog=PME;Integrated Security=True</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
