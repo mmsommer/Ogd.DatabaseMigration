@@ -34,14 +34,15 @@
     <OutputPath>bin\UserAcceptance\</OutputPath>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Migrator">
-      <HintPath>packages\OGD.Migrator.1.0.2.1\lib\net40\Migrator.dll</HintPath>
+    <Reference Include="Migrator, Version=0.9.0.37339, Culture=neutral, PublicKeyToken=3b3586e9632ecfce, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>packages\OGD.Migrator.1.1.0\lib\net40\Migrator.dll</HintPath>
     </Reference>
-    <Reference Include="Migrator.Framework">
-      <HintPath>packages\OGD.Migrator.1.0.2.1\lib\net40\Migrator.Framework.dll</HintPath>
+    <Reference Include="Migrator.Framework, Version=0.0.0.0, Culture=neutral, PublicKeyToken=3b3586e9632ecfce, processorArchitecture=MSIL">
+      <HintPath>packages\OGD.Migrator.1.1.0\lib\net40\Migrator.Framework.dll</HintPath>
     </Reference>
-    <Reference Include="Migrator.Providers">
-      <HintPath>packages\OGD.Migrator.1.0.2.1\lib\net40\Migrator.Providers.dll</HintPath>
+    <Reference Include="Migrator.Providers, Version=0.0.0.0, Culture=neutral, PublicKeyToken=3b3586e9632ecfce, processorArchitecture=MSIL">
+      <HintPath>packages\OGD.Migrator.1.1.0\lib\net40\Migrator.Providers.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -52,17 +53,29 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="App.config.transform">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web.config.transform">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="MigrationSettings.settings.transform">
+      <Generator>SettingsSingleFileGenerator</Generator>
+    </None>
+    <None Include="Program.cs.pp" />
+    <None Include="MigrationSettings.cs.pp" />
     <Compile Include="MigrationSettings.cs" />
     <Compile Include="MigrationSettings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
       <DependentUpon>MigrationSettings.settings</DependentUpon>
     </Compile>
+    <None Include="MigrationSettings.Designer.cs.pp" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="app.config">
+    <None Include="App.config">
       <SubType>Designer</SubType>
     </None>
     <None Include="MigrationSettings.settings">
